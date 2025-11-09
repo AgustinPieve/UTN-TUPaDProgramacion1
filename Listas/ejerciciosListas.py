@@ -89,6 +89,75 @@
 
 #6
 
-lista = [2,5,6,7,3,8,9]
+# numeros = [1, 2, 3, 4, 5, 6, 7]
+
+# nuevo = [0] * len(numeros)  
+
+# for i in range(len(numeros)):
+#     nuevo[(i + 1) % len(numeros)] = numeros[i]
+
+# numeros = nuevo
+
+# print(numeros)
+
+#7
+
+# temperaturas = [[12, 24], [14, 25], [10, 22], [11, 20], [13, 27], [9,  23], [15, 28]]
+
+# suma_min = 0
+# suma_max = 0
+
+# mayor_amplitud = 0
+# dia_mayor_amplitud = 0
+
+# for i in range(7):
+#     minima = temperaturas[i][0]
+#     maxima = temperaturas[i][1]
+    
+#     suma_min += minima
+#     suma_max += maxima
+
+#     amplitud = maxima - minima
+#     if amplitud > mayor_amplitud:
+#         mayor_amplitud = amplitud
+#         dia_mayor_amplitud = i + 1  
+
+# promedio_min = suma_min / 7
+# promedio_max = suma_max / 7
+
+# print("Promedio de temperaturas mínimas:", promedio_min)
+# print("Promedio de temperaturas máximas:", promedio_max)
+# print("La mayor amplitud térmica fue de", mayor_amplitud, "y ocurrió el día", dia_mayor_amplitud)
+
+#8
+# notas = [
+#     [7, 8, 6],  
+#     [5, 9, 7],   
+#     [10, 6, 8], 
+#     [4, 5, 7],   
+#     [9, 8, 9]    
+# ]
+
+# print('Promedios estudiantes: ')
+
+# for i in range(5):
+    
+#     promedio = sum(notas[i]) / len(notas[i])
+#     print(f'Estudiante {i + 1}: {promedio}')
+    
+# print('\nPromedio de cada materia: ')
+
+# for j in range(3):
+#     suma = 0
+#     for i in range(5):
+#         suma = suma + notas[i][j]
+#     promedio_mat = suma / 5
+#     print(f'Materia {j + 1}: {promedio_mat}')    
+        
+#9
+
+    
+    
+
 
 
