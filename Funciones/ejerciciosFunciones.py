@@ -27,6 +27,20 @@ residencia = input("Residencia: ")
 
 informacion_personal(nombre, apellido, edad, residencia)
 
+# Ejercicio 3
+
+def informacion_personal(nombre, apellido, edad, residencia):
+    print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}")
+
+# Programa Principal
+print("Bienvenido, por favor complete los siguientes datos.")
+nombre = input("Nombre: ")
+apellido = input("Apellido: ")
+edad = input("Edad: ")
+residencia = input("Residencia: ")
+
+informacion_personal(nombre, apellido, edad, residencia)
+
 # Ejercicio 4
 
 import math # Para poder usar pi
@@ -55,6 +69,17 @@ def segundos_a_horas(segundos):
 segundos = int(input("Ingrese la cantidad de segundos para pasar a horas: "))
 
 print(f"{segundos} es equivalente a {segundos_a_horas(segundos):.2f} hora/s")
+
+def tabla_multiplicar(numero):
+    for i in range(1,11):
+        print(f"{i} X {numero} = {i * numero}")
+
+# Programa principal
+numero = int(input("Ingrese un numero el cual quiera ver su tabla de multiplicar: "))
+
+tabla_multiplicar(numero)
+
+# Ejercicio 6
 
 def tabla_multiplicar(numero):
     for i in range(1,11):
@@ -115,6 +140,20 @@ def celsius_a_fahrenheit(celsius):
 # Programa principal
 celsius = float(input("Ingrese una temperatura en °C para convertirla a °F"))
 print(f"{celsius}°C es igual a {celsius_a_fahrenheit(celsius)}°F")
+
+def calcular_promedio(a, b, c):
+    promedio = (a + b + c) / 3
+    return promedio
+
+# Programa principal
+print("Ingrese 3 numeros para calcular su promedio")
+a = float(input("Ingrese el primero: "))
+b = float(input("Ingrese el segundoo: "))
+c = float(input("Ingrese el tercero: "))
+
+print(f"El promedio de {a, b ,c} es {calcular_promedio(a, b ,c)}")
+
+# Ejercicio 10
 
 def calcular_promedio(a, b, c):
     promedio = (a + b + c) / 3
